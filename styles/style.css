@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #F5F5F5;
+    padding-top: 200px; 
+    padding-bottom: 200px;
+}
+
+h1, p {
+    margin: 0;
+}
+
+.container {
+    max-width: 1512px;
+    width: 100%;
+    margin-inline: auto;
+    background-color: white;
+    padding: 80px;
+}
+
+.nav {
+    padding-top: 60px;
+    padding-bottom: 128px;
+}
+
+.ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;    
+}
+
+li {
+    list-style: none;
+    font-weight: 700;
+    font-size: 30px;
+    color: #000000;
+}
+
+.link {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.main {
+    display: flex; 
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.info {
+  max-width: 800px; 
+}
+
+.title {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 90px;
+    color: #000;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 87px;
+    line-height: 90px;
+    color: #000;
+}
+
+.emoji {
+    width: 90px;
+    height: 90px;
+}
+
+.title-name{
+    display: flex;
+    gap: 10px;
+}
+.description {
+    margin-top: 40px;
+    margin-bottom: 52px;
+    font-weight: 500;
+    font-size: 29px;
+    line-height: 45px;
+    color: #6B6868;
+}
+
+.links {
+    display: flex;
+    gap: 38px;
+}
+
+.link-primary {
+    display: inline-block;
+    border: 2px solid #000000;
+    padding: 30px 50px;
+    background-color: white;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.link-secondery {
+    border: 2px solid #000000;
+    padding: 30px 50px;
+    background-color: black;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.photo {
+    max-width: 500px;    
+}
+
+.photo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0 0 0 225px;
+    position: relative;
+    bottom: 7px solid black;
+    
+}
+
+.image {
+    position: relative;
+}
+
+.cover {
+    width:  calc(100% - 10px);;
+    height: calc(100% - 40px);
+    background: #000;
+    position: absolute;
+    border-radius: 0 0 0 225px;
+    right: -5px;
+    top: -10px;
+}
